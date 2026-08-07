@@ -71,8 +71,9 @@
   <text class="o1" x="28" y="98"><tspan class="ok">tkwind</tspan><tspan class="dim"> — I build tools that show their work</tspan></text>
 
   <text class="t2" x="28" y="132"><tspan class="prompt">$ </tspan><tspan class="cmd">pip install repoclean-cli &amp;&amp; repoclean scan</tspan></text>
-  <text class="o2" x="28" y="158"><tspan class="ok">✓</tspan><tspan class="dim"> hygiene score </tspan><tspan class="ok">94/100</tspan><tspan class="dim"> · 0 secrets leaked · pre-commit hook armed</tspan></text>
-  <text class="o3" x="28" y="184"><tspan class="ok">✓</tspan><tspan class="dim"> every finding shipped with its evidence attached</tspan></text>
+  <!-- TODO(tkwind): replace these two output lines with verbatim `repoclean scan` output — never invented numbers -->
+  <text class="o2" x="28" y="158"><tspan class="ok">✓</tspan><tspan class="dim"> scan complete — report written, evidence attached</tspan></text>
+  <text class="o3" x="28" y="184"><tspan class="dim"># try it on your own repo</tspan></text>
 
   <text class="t3" x="28" y="218"><tspan class="prompt">$ </tspan><tspan class="cmd">tkwind --principles</tspan></text>
   <text class="o4" x="28" y="244"><tspan class="dim">[1] evidence first   [2] label the guesses   [3] ship small, ship often</tspan></text>

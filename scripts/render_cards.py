@@ -30,6 +30,7 @@ ICON = {
     "pr": "M1.5 3.25a2.25 2.25 0 1 1 3 2.122v5.256a2.251 2.251 0 1 1-1.5 0V5.372A2.25 2.25 0 0 1 1.5 3.25zm5.677-.177L9.573.677A.25.25 0 0 1 10 .854V2.5h1A2.5 2.5 0 0 1 13.5 5v5.628a2.251 2.251 0 1 1-1.5 0V5a1 1 0 0 0-1-1h-1v1.646a.25.25 0 0 1-.427.177L7.177 3.427a.25.25 0 0 1 0-.354zM3.75 2.5a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5zm0 9.5a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5zm8.25.75a.75.75 0 1 0 1.5 0 .75.75 0 0 0-1.5 0z",
     "person": "M10.561 8.073a6.005 6.005 0 0 1 3.432 5.142.75.75 0 1 1-1.498.07 4.5 4.5 0 0 0-8.99 0 .75.75 0 0 1-1.498-.07 6.004 6.004 0 0 1 3.431-5.142 3.999 3.999 0 1 1 5.123 0zM10.5 5a2.5 2.5 0 1 0-5 0 2.5 2.5 0 0 0 5 0z",
     "zap": "M9.504.43a.75.75 0 0 1 .494.889l-1.09 4.436h4.342a.75.75 0 0 1 .548 1.262l-7.5 8.25a.75.75 0 0 1-1.292-.657l1.09-4.435H1.754a.75.75 0 0 1-.548-1.263l7.5-8.25a.75.75 0 0 1 .798-.232z",
+    "code": "M4.72 3.22a.75.75 0 0 1 1.06 1.06L2.06 8l3.72 3.72a.75.75 0 1 1-1.06 1.06L.47 8.53a.75.75 0 0 1 0-1.06l4.25-4.25zm6.56 0a.75.75 0 1 0-1.06 1.06L13.94 8l-3.72 3.72a.75.75 0 1 0 1.06 1.06l4.25-4.25a.75.75 0 0 0 0-1.06l-4.25-4.25z",
     "flame": "M9.533.753V.752c.217 2.385 1.463 3.626 2.653 4.81C13.37 6.74 14.498 7.863 14.498 10c0 3.5-3 6-6.5 6S1.5 13.512 1.5 10c0-1.298.536-2.56 1.425-3.286.376-.308.862 0 1.035.454.283.744.72 1.394 1.34 1.832.443-1.615.29-3.303-.116-4.936-.152-.612.354-1.223.98-1.128 1.114.169 2.164.769 2.869 1.817z",
 }
 
@@ -141,10 +142,16 @@ def dashboard(u, theme, c):
 
     s.append(f'<text class="in" x="28" y="38" font-size="13" letter-spacing="3" fill="{c["faint"]}">THE NUMBERS — PAST YEAR</text>')
 
+    # Stars tile intentionally omitted while the count is small — small public
+    # numbers undercut the page. Reinstate ("star", fmt(stars), "stars earned")
+    # when it's worth showing.
+    # TODO(tkwind): pull PyPI monthly downloads for repoclean-cli from the
+    # pypistats.org API here and surface it on the repoclean card once you've
+    # decided the number is worth displaying.
     stats = [("commit", fmt(u["contributionsCollection"]["totalCommitContributions"]), "commits"),
              ("zap", fmt(total_contrib), "contributions"),
              ("fork", fmt(len(u["repositories"]["nodes"])), "public repos"),
-             ("star", fmt(stars), "stars earned")]
+             ("code", str(len(agg)), "languages")]
     for i, (ic, val, label) in enumerate(stats):
         x, y = 28 + (i % 2) * 130, 74 + (i // 2) * 72
         d = f"{.15 + i * .1:.2f}"

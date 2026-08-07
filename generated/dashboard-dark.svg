@@ -19,12 +19,12 @@
 <text class="in" x="28" y="38" font-size="13" letter-spacing="3" fill="#6B7C8F">THE NUMBERS — PAST YEAR</text>
 <g class="in" style="animation-delay:0.15s">
 <g transform="translate(28,60) scale(1.0)"><path fill="#7FD8D2" d="M11.93 8.5a4.002 4.002 0 0 1-7.86 0H.75a.75.75 0 0 1 0-1.5h3.32a4.002 4.002 0 0 1 7.86 0h3.32a.75.75 0 0 1 0 1.5h-3.32zM8 10.25a2.25 2.25 0 1 0 0-4.5 2.25 2.25 0 0 0 0 4.5z"/></g>
-<text x="54" y="74" font-size="24" font-weight="700" fill="#EDF2F4">163</text>
+<text x="54" y="74" font-size="24" font-weight="700" fill="#EDF2F4">168</text>
 <text x="28" y="96" font-size="10.5" letter-spacing="1.5" fill="#9FB3C8">COMMITS</text>
 </g>
 <g class="in" style="animation-delay:0.25s">
 <g transform="translate(158,60) scale(1.0)"><path fill="#7FD8D2" d="M9.504.43a.75.75 0 0 1 .494.889l-1.09 4.436h4.342a.75.75 0 0 1 .548 1.262l-7.5 8.25a.75.75 0 0 1-1.292-.657l1.09-4.435H1.754a.75.75 0 0 1-.548-1.263l7.5-8.25a.75.75 0 0 1 .798-.232z"/></g>
-<text x="184" y="74" font-size="24" font-weight="700" fill="#EDF2F4">171</text>
+<text x="184" y="74" font-size="24" font-weight="700" fill="#EDF2F4">176</text>
 <text x="158" y="96" font-size="10.5" letter-spacing="1.5" fill="#9FB3C8">CONTRIBUTIONS</text>
 </g>
 <g class="in" style="animation-delay:0.35s">
@@ -33,9 +33,9 @@
 <text x="28" y="168" font-size="10.5" letter-spacing="1.5" fill="#9FB3C8">PUBLIC REPOS</text>
 </g>
 <g class="in" style="animation-delay:0.45s">
-<g transform="translate(158,132) scale(1.0)"><path fill="#FFB86B" d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.75.75 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25z"/></g>
-<text x="184" y="146" font-size="24" font-weight="700" fill="#EDF2F4">2</text>
-<text x="158" y="168" font-size="10.5" letter-spacing="1.5" fill="#9FB3C8">STARS EARNED</text>
+<g transform="translate(158,132) scale(1.0)"><path fill="#7FD8D2" d="M4.72 3.22a.75.75 0 0 1 1.06 1.06L2.06 8l3.72 3.72a.75.75 0 1 1-1.06 1.06L.47 8.53a.75.75 0 0 1 0-1.06l4.25-4.25zm6.56 0a.75.75 0 1 0-1.06 1.06L13.94 8l-3.72 3.72a.75.75 0 1 0 1.06 1.06l4.25-4.25a.75.75 0 0 0 0-1.06l-4.25-4.25z"/></g>
+<text x="184" y="146" font-size="24" font-weight="700" fill="#EDF2F4">7</text>
+<text x="158" y="168" font-size="10.5" letter-spacing="1.5" fill="#9FB3C8">LANGUAGES</text>
 </g>
 <rect x="300" y="28" width="1" height="176" fill="#1B3A4B"/>
 <g class="in" style="animation-delay:.35s">
@@ -48,20 +48,20 @@
 </g>
 <rect x="490" y="28" width="1" height="176" fill="#1B3A4B"/>
 <text class="in" x="520" y="38" font-size="10.5" letter-spacing="1.5" fill="#9FB3C8">CONTRIBUTIONS / WEEK</text>
-<polygon class="fade" points="520,140 520.0,140.0 526.4,140.0 532.8,140.0 539.2,140.0 545.5,140.0 551.9,140.0 558.3,140.0 564.7,140.0 571.1,140.0 577.5,140.0 583.8,140.0 590.2,140.0 596.6,140.0 603.0,140.0 609.4,140.0 615.8,140.0 622.2,140.0 628.5,140.0 634.9,140.0 641.3,140.0 647.7,135.2 654.1,140.0 660.5,140.0 666.8,44.0 673.2,127.2 679.6,119.2 686.0,140.0 692.4,140.0 698.8,140.0 705.2,108.0 711.5,140.0 717.9,140.0 724.3,140.0 730.7,140.0 737.1,140.0 743.5,122.4 749.8,58.4 756.2,138.4 762.6,140.0 769.0,140.0 775.4,140.0 781.8,138.4 788.2,136.8 794.5,140.0 800.9,140.0 807.3,140.0 813.7,140.0 820.1,140.0 826.5,140.0 832.8,140.0 839.2,140.0 845.6,140.0 852.0,138.4 852,140" fill="#1B3A4B" opacity=".8"/>
-<polyline class="spark" points="520.0,140.0 526.4,140.0 532.8,140.0 539.2,140.0 545.5,140.0 551.9,140.0 558.3,140.0 564.7,140.0 571.1,140.0 577.5,140.0 583.8,140.0 590.2,140.0 596.6,140.0 603.0,140.0 609.4,140.0 615.8,140.0 622.2,140.0 628.5,140.0 634.9,140.0 641.3,140.0 647.7,135.2 654.1,140.0 660.5,140.0 666.8,44.0 673.2,127.2 679.6,119.2 686.0,140.0 692.4,140.0 698.8,140.0 705.2,108.0 711.5,140.0 717.9,140.0 724.3,140.0 730.7,140.0 737.1,140.0 743.5,122.4 749.8,58.4 756.2,138.4 762.6,140.0 769.0,140.0 775.4,140.0 781.8,138.4 788.2,136.8 794.5,140.0 800.9,140.0 807.3,140.0 813.7,140.0 820.1,140.0 826.5,140.0 832.8,140.0 839.2,140.0 845.6,140.0 852.0,138.4" fill="none" stroke="#7FD8D2" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<polygon class="fade" points="520,140 520.0,140.0 526.4,140.0 532.8,140.0 539.2,140.0 545.5,140.0 551.9,140.0 558.3,140.0 564.7,140.0 571.1,140.0 577.5,140.0 583.8,140.0 590.2,140.0 596.6,140.0 603.0,140.0 609.4,140.0 615.8,140.0 622.2,140.0 628.5,140.0 634.9,140.0 641.3,140.0 647.7,135.2 654.1,140.0 660.5,140.0 666.8,44.0 673.2,127.2 679.6,119.2 686.0,140.0 692.4,140.0 698.8,140.0 705.2,108.0 711.5,140.0 717.9,140.0 724.3,140.0 730.7,140.0 737.1,140.0 743.5,122.4 749.8,58.4 756.2,138.4 762.6,140.0 769.0,140.0 775.4,140.0 781.8,138.4 788.2,136.8 794.5,140.0 800.9,140.0 807.3,140.0 813.7,140.0 820.1,140.0 826.5,140.0 832.8,140.0 839.2,140.0 845.6,140.0 852.0,130.4 852,140" fill="#1B3A4B" opacity=".8"/>
+<polyline class="spark" points="520.0,140.0 526.4,140.0 532.8,140.0 539.2,140.0 545.5,140.0 551.9,140.0 558.3,140.0 564.7,140.0 571.1,140.0 577.5,140.0 583.8,140.0 590.2,140.0 596.6,140.0 603.0,140.0 609.4,140.0 615.8,140.0 622.2,140.0 628.5,140.0 634.9,140.0 641.3,140.0 647.7,135.2 654.1,140.0 660.5,140.0 666.8,44.0 673.2,127.2 679.6,119.2 686.0,140.0 692.4,140.0 698.8,140.0 705.2,108.0 711.5,140.0 717.9,140.0 724.3,140.0 730.7,140.0 737.1,140.0 743.5,122.4 749.8,58.4 756.2,138.4 762.6,140.0 769.0,140.0 775.4,140.0 781.8,138.4 788.2,136.8 794.5,140.0 800.9,140.0 807.3,140.0 813.7,140.0 820.1,140.0 826.5,140.0 832.8,140.0 839.2,140.0 845.6,140.0 852.0,130.4" fill="none" stroke="#7FD8D2" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
 <text class="in" x="520" y="166" font-size="10.5" letter-spacing="1.5" fill="#9FB3C8">LANGUAGES</text>
-<g transform="translate(520,176)"><rect class="bar" style="animation-delay:0.40s" width="137.9" height="9" rx="4.5" fill="#f1e05a"/></g>
-<g transform="translate(660.8900720630384,176)"><rect class="bar" style="animation-delay:0.52s" width="111.7" height="9" rx="4.5" fill="#3572A5"/></g>
-<g transform="translate(775.613029715714,176)"><rect class="bar" style="animation-delay:0.64s" width="54.0" height="9" rx="4.5" fill="#3178c6"/></g>
-<g transform="translate(832.6615057657914,176)"><rect class="bar" style="animation-delay:0.76s" width="18.5" height="9" rx="4.5" fill="#663399"/></g>
-<g transform="translate(854.2002200055375,176)"><rect class="bar" style="animation-delay:0.88s" width="-2.2" height="9" rx="4.5" fill="#e34c26"/></g>
+<g transform="translate(520,176)"><rect class="bar" style="animation-delay:0.40s" width="131.5" height="9" rx="4.5" fill="#f1e05a"/></g>
+<g transform="translate(654.4692475358431,176)"><rect class="bar" style="animation-delay:0.52s" width="122.0" height="9" rx="4.5" fill="#3572A5"/></g>
+<g transform="translate(779.4493630471,176)"><rect class="bar" style="animation-delay:0.64s" width="51.5" height="9" rx="4.5" fill="#3178c6"/></g>
+<g transform="translate(833.9810822669888,176)"><rect class="bar" style="animation-delay:0.76s" width="17.7" height="9" rx="4.5" fill="#663399"/></g>
+<g transform="translate(854.6565448649575,176)"><rect class="bar" style="animation-delay:0.88s" width="-2.7" height="9" rx="4.5" fill="#e34c26"/></g>
 <circle class="in" cx="524" cy="206" r="4" fill="#f1e05a"/>
-<text class="in" x="533" y="210" font-size="10.5" fill="#9FB3C8">JavaScript 42%</text>
+<text class="in" x="533" y="210" font-size="10.5" fill="#9FB3C8">JavaScript 40%</text>
 <circle class="in" cx="645.4" cy="206" r="4" fill="#3572A5"/>
-<text class="in" x="654.4" y="210" font-size="10.5" fill="#9FB3C8">Python 34%</text>
+<text class="in" x="654.4" y="210" font-size="10.5" fill="#9FB3C8">Python 37%</text>
 <circle class="in" cx="740.4" cy="206" r="4" fill="#3178c6"/>
 <text class="in" x="749.4" y="210" font-size="10.5" fill="#9FB3C8">TypeScript 16%</text>
 <circle class="in" cx="861.8" cy="206" r="4" fill="#663399"/>
-<text class="in" x="870.8" y="210" font-size="10.5" fill="#9FB3C8">CSS 6%</text>
+<text class="in" x="870.8" y="210" font-size="10.5" fill="#9FB3C8">CSS 5%</text>
 </svg>

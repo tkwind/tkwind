@@ -2,7 +2,8 @@
   ─────────────────────────────────────────────────────────────
   tkwind — profile README
   Colors: ink #0D1B2A · haze #1B3A4B · gust #7FD8D2 · ember #FFB86B
-  Header art lives in assets/ — edit the subtitle in BOTH svg files.
+  Header + terminal art live in assets/ — hand-written animated SVGs.
+  Edit the header subtitle in BOTH header svg files.
   ─────────────────────────────────────────────────────────────
 -->
 
@@ -11,6 +12,14 @@
   <source media="(prefers-color-scheme: light)" srcset="./assets/header-light.svg">
   <img alt="tkwind — developer tools that show their work" src="./assets/header-dark.svg" width="100%">
 </picture>
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)"  srcset="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=500&size=20&duration=2800&pause=900&center=true&vCenter=true&width=680&height=44&color=7FD8D2&background=00000000&lines=I+build+tools+that+show+their+work;evidence+first+%E2%80%94+guesses+labeled+as+guesses;CLI+design+%C2%B7+API+debugging+%C2%B7+auditable+AI+agents;Python+%C2%B7+TypeScript+%C2%B7+FastAPI+%C2%B7+React">
+    <source media="(prefers-color-scheme: light)" srcset="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=500&size=20&duration=2800&pause=900&center=true&vCenter=true&width=680&height=44&color=14807C&background=00000000&lines=I+build+tools+that+show+their+work;evidence+first+%E2%80%94+guesses+labeled+as+guesses;CLI+design+%C2%B7+API+debugging+%C2%B7+auditable+AI+agents;Python+%C2%B7+TypeScript+%C2%B7+FastAPI+%C2%B7+React">
+    <img alt="I build tools that show their work" src="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=500&size=20&duration=2800&pause=900&center=true&vCenter=true&width=680&height=44&color=7FD8D2&background=00000000&lines=I+build+tools+that+show+their+work;evidence+first+%E2%80%94+guesses+labeled+as+guesses;CLI+design+%C2%B7+API+debugging+%C2%B7+auditable+AI+agents;Python+%C2%B7+TypeScript+%C2%B7+FastAPI+%C2%B7+React">
+  </picture>
+</p>
 
 <div align="center">
 
@@ -27,19 +36,17 @@
 
 <br>
 
-I build small tools that tell you *why*, not just *what*. A secrets scanner that scores your repo instead of dumping a wall of regex hits. An API client that diffs a failed request against the last one that worked. Lead-scoring agents that leave an audit trail. Same idea every time: if a tool makes a judgement call, it should show you the evidence.
+Most tools tell you *what* happened. Mine are built to tell you *why* — and to admit it when they're guessing. That's the whole thesis: if software makes a judgement call, it owes you the evidence.
 
-> [!TIP]
-> ```bash
-> pip install repoclean-cli && repoclean scan
-> ```
-> Repo hygiene score, secrets detection, and a pre-commit hook that blocks the leak before it happens.
+<div align="center">
+<img src="./assets/terminal.svg" width="92%" alt="Animated terminal: whoami — tkwind. pip install repoclean-cli. Principles: evidence first, label the guesses, ship small.">
+</div>
 
 ```toml
 [tkwind]
-building    = ["repoclean", "PostSense"]
-shipped_to  = ["PyPI", "GitHub Pages", "Vercel", "Cloud Run"]
+now         = "building developer tools that explain themselves"
 core_stack  = ["Python", "TypeScript", "FastAPI", "React"]
+shipped_to  = ["PyPI", "GitHub Pages", "Vercel", "Cloud Run"]
 conviction  = "a tool that guesses should say it's guessing"
 ask_me      = ["CLI design", "auditable LLM agents", "why your API returns 405"]
 ```
@@ -50,24 +57,18 @@ ask_me      = ["CLI design", "auditable LLM agents", "why your API returns 405"]
 
 <div align="center">
 
-<img alt="Python" src="https://img.shields.io/badge/Python-0D1B2A?style=flat-square&logo=python&logoColor=7FD8D2">
-<img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-0D1B2A?style=flat-square&logo=typescript&logoColor=7FD8D2">
-<img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-0D1B2A?style=flat-square&logo=javascript&logoColor=7FD8D2">
-<img alt="C++" src="https://img.shields.io/badge/C++-0D1B2A?style=flat-square&logo=cplusplus&logoColor=7FD8D2">
-<br>
-<img alt="FastAPI" src="https://img.shields.io/badge/FastAPI-0D1B2A?style=flat-square&logo=fastapi&logoColor=7FD8D2">
-<img alt="Node.js" src="https://img.shields.io/badge/Node.js-0D1B2A?style=flat-square&logo=nodedotjs&logoColor=7FD8D2">
-<img alt="Express" src="https://img.shields.io/badge/Express-0D1B2A?style=flat-square&logo=express&logoColor=7FD8D2">
-<img alt="React" src="https://img.shields.io/badge/React-0D1B2A?style=flat-square&logo=react&logoColor=7FD8D2">
-<img alt="Vite" src="https://img.shields.io/badge/Vite-0D1B2A?style=flat-square&logo=vite&logoColor=7FD8D2">
-<img alt="Tailwind CSS" src="https://img.shields.io/badge/Tailwind-0D1B2A?style=flat-square&logo=tailwindcss&logoColor=7FD8D2">
-<br>
-<img alt="MongoDB" src="https://img.shields.io/badge/MongoDB-0D1B2A?style=flat-square&logo=mongodb&logoColor=7FD8D2">
-<img alt="Firebase" src="https://img.shields.io/badge/Firestore-0D1B2A?style=flat-square&logo=firebase&logoColor=7FD8D2">
-<img alt="Ollama" src="https://img.shields.io/badge/Ollama-0D1B2A?style=flat-square&logo=ollama&logoColor=FFB86B">
-<img alt="Docker" src="https://img.shields.io/badge/Docker-0D1B2A?style=flat-square&logo=docker&logoColor=7FD8D2">
-<img alt="Google Cloud Run" src="https://img.shields.io/badge/Cloud%20Run-0D1B2A?style=flat-square&logo=googlecloud&logoColor=7FD8D2">
-<img alt="GitHub Actions" src="https://img.shields.io/badge/Actions-0D1B2A?style=flat-square&logo=githubactions&logoColor=7FD8D2">
+<a href="https://github.com/tkwind?tab=repositories">
+  <picture>
+    <source media="(prefers-color-scheme: dark)"  srcset="https://skillicons.dev/icons?i=py,ts,js,cpp,react,vite,tailwind,nodejs,express,fastapi,mongodb,firebase,docker,gcp,githubactions,vercel&perline=8&theme=dark">
+    <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=py,ts,js,cpp,react,vite,tailwind,nodejs,express,fastapi,mongodb,firebase,docker,gcp,githubactions,vercel&perline=8&theme=light">
+    <img alt="Python, TypeScript, JavaScript, C++, React, Vite, Tailwind, Node.js, Express, FastAPI, MongoDB, Firebase, Docker, Google Cloud, GitHub Actions, Vercel" src="https://skillicons.dev/icons?i=py,ts,js,cpp,react,vite,tailwind,nodejs,express,fastapi,mongodb,firebase,docker,gcp,githubactions,vercel&perline=8&theme=dark">
+  </picture>
+</a>
+
+<br><br>
+
+<img alt="Ollama" src="https://img.shields.io/badge/Ollama_+_local_Mistral-0D1B2A?style=flat-square&logo=ollama&logoColor=FFB86B">
+<img alt="NVIDIA NIM" src="https://img.shields.io/badge/NVIDIA_NIM-0D1B2A?style=flat-square&logo=nvidia&logoColor=7FD8D2">
 
 </div>
 
@@ -107,13 +108,24 @@ ask_me      = ["CLI design", "auditable LLM agents", "why your API returns 405"]
 
 </div>
 
-**[repoclean](https://github.com/tkwind/repoclean)** &nbsp;·&nbsp; `pip install repoclean-cli` &nbsp;·&nbsp; Git hygiene scanner and secrets detector that installs itself as a pre-commit gatekeeper. Catches GitHub, Slack, Stripe, Telegram, AWS, and OpenAI tokens plus high-entropy assignments, then blocks the commit in strict mode. JSON output for CI. Most leaks aren't carelessness — they're speed, so this makes hygiene automatic instead of manual.
+- **[repoclean](https://github.com/tkwind/repoclean)** — `pip install repoclean-cli` · blocks the secret *before* it's committed, and grades your repo while it's at it
+- **[PostSense](https://tkwind.github.io/PostSense/)** — API client that diffs a failing request against your last working one, then rates its own diagnosis
+- **[Apply\_AI](https://apply-ai-iota.vercel.app/)** — drag-and-drop job tracker where NVIDIA NIM turns job descriptions into resume suggestions
+- **[ai-outreach-assistant](https://github.com/tkwind/ai-outreach-assistant)** — lead-scoring agents with an audit trail, running entirely on local Mistral
+
+<details>
+<summary><b>The longer version</b></summary>
+<br>
+
+**[repoclean](https://github.com/tkwind/repoclean)** &nbsp;·&nbsp; Git hygiene scanner and secrets detector that installs itself as a pre-commit gatekeeper. Catches GitHub, Slack, Stripe, Telegram, AWS, and OpenAI tokens plus high-entropy assignments, then blocks the commit in strict mode. JSON output for CI. Most leaks aren't carelessness — they're speed, so this makes hygiene automatic instead of manual.
 
 **[PostSense](https://tkwind.github.io/PostSense/)** &nbsp;·&nbsp; API client that debugs instead of just reporting. It compares a failing request to your last successful one for the same endpoint and returns a diff, not a status code. Auto-probes unknown endpoints in a rate-limit-safe sequence, simulates browser CORS constraints your desktop client hides, and grades every diagnosis High / Medium / Low so you know when it's inferring rather than knowing. Single folder, vanilla JS, no install.
 
 **[Apply\_AI](https://apply-ai-iota.vercel.app/)** &nbsp;·&nbsp; Job application tracker with a drag-and-drop board, JWT auth, and NVIDIA NIM parsing job descriptions into resume suggestions. React + TS + Vite front, Express + Mongo back, React Query holding it together.
 
 **[ai-outreach-assistant](https://github.com/tkwind/ai-outreach-assistant)** &nbsp;·&nbsp; Agentic B2B lead scoring where a scoring agent, a messaging agent, and an orchestrator stay separate on purpose — decision apart from execution, thresholds configurable, every call leaving an explainable trace. Runs entirely on local Mistral via Ollama, so no lead data leaves the machine.
+
+</details>
 
 <details>
 <summary><b>Also in here</b></summary>
@@ -127,9 +139,9 @@ Not everything in an account is a product. These are working repos, kept public 
 
 </details>
 
-## How a diagnosis gets made
+## How my tools think
 
-The shape shared by `PostSense`, `repoclean`, and `ai-outreach-assistant` — evidence first, and an honest label when there isn't any.
+Every judgement call follows the same shape — evidence first, and an honest label when there isn't any.
 
 ```mermaid
 %%{init: {'theme':'base','themeVariables':{'primaryColor':'#12293B','primaryTextColor':'#7FD8D2','primaryBorderColor':'#7FD8D2','lineColor':'#FFB86B','secondaryColor':'#0D1B2A','tertiaryColor':'#0D1B2A','fontFamily':'ui-monospace, monospace'}}}%%
@@ -198,9 +210,9 @@ flowchart LR
 <summary><b>How this README works</b></summary>
 <br>
 
-The header is a hand-written animated SVG in [`assets/`](./assets) — CSS keyframes inside the file, no external banner service. GitHub renders it through its image proxy, so the animation runs but scripts never do.
+The header and the terminal are hand-written animated SVGs in [`assets/`](./assets) — CSS keyframes inside the files, no external banner service. GitHub renders them through its image proxy, so the animations run but scripts never do.
 
-Two workflows keep it current:
+Two workflows keep the rest current:
 
 | Workflow | What it does | Schedule |
 | :-- | :-- | :-- |

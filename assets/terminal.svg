@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 282" width="880" height="282" role="img" aria-label="Terminal: whoami — tkwind, tools that show their work">
+  <defs>
+    <clipPath id="win"><rect x="0" y="0" width="880" height="282" rx="14"/></clipPath>
+    <style>
+      text {
+        font-family: ui-monospace, SFMono-Regular, 'SF Mono', Menlo, 'DejaVu Sans Mono', monospace;
+        font-size: 15.5px;
+        white-space: pre;
+      }
+      .prompt { fill: #FFB86B; }
+      .cmd    { fill: #EDF2F4; }
+      .ok     { fill: #7FD8D2; }
+      .dim    { fill: #9FB3C8; }
+
+      /* typed lines: clip-path sweeps left→right in character steps */
+      .t1 { animation: t1 18s linear infinite; }
+      .t2 { animation: t2 18s linear infinite; }
+      .t3 { animation: t3 18s linear infinite; }
+      @keyframes t1 {
+        0%, 2%   { clip-path: inset(-4px 100% -4px 0); animation-timing-function: steps(8); }
+        7%       { clip-path: inset(-4px 0% -4px 0); }
+        100%     { clip-path: inset(-4px 0% -4px 0); }
+      }
+      @keyframes t2 {
+        0%, 16%  { clip-path: inset(-4px 100% -4px 0); animation-timing-function: steps(46); }
+        30%      { clip-path: inset(-4px 0% -4px 0); }
+        100%     { clip-path: inset(-4px 0% -4px 0); }
+      }
+      @keyframes t3 {
+        0%, 44%  { clip-path: inset(-4px 100% -4px 0); animation-timing-function: steps(21); }
+        52%      { clip-path: inset(-4px 0% -4px 0); }
+        100%     { clip-path: inset(-4px 0% -4px 0); }
+      }
+
+      /* output lines: appear once their command finishes */
+      .o1 { animation: o1 18s linear infinite; }
+      .o2 { animation: o2 18s linear infinite; }
+      .o3 { animation: o3 18s linear infinite; }
+      .o4 { animation: o4 18s linear infinite; }
+      @keyframes o1 { 0%, 9%  { opacity: 0; } 10% { opacity: 1; } 100% { opacity: 1; } }
+      @keyframes o2 { 0%, 32% { opacity: 0; } 33% { opacity: 1; } 100% { opacity: 1; } }
+      @keyframes o3 { 0%, 36% { opacity: 0; } 37% { opacity: 1; } 100% { opacity: 1; } }
+      @keyframes o4 { 0%, 54% { opacity: 0; } 55% { opacity: 1; } 100% { opacity: 1; } }
+
+      /* trailing prompt caret: appears at the end, blinks until the loop resets */
+      .caretline { animation: o5 18s linear infinite; }
+      .caret     { animation: blink 1.1s steps(1) infinite; }
+      @keyframes o5    { 0%, 58% { opacity: 0; } 59% { opacity: 1; } 100% { opacity: 1; } }
+      @keyframes blink { 0% { opacity: 1; } 50% { opacity: 0; } }
+
+      @media (prefers-reduced-motion: reduce) {
+        .t1,.t2,.t3,.o1,.o2,.o3,.o4,.caretline,.caret { animation: none; }
+      }
+    </style>
+  </defs>
+
+  <!-- window chrome (terminal stays dark in both themes, like a real one) -->
+  <g clip-path="url(#win)">
+    <rect width="880" height="282" fill="#0A1620"/>
+    <rect width="880" height="38" fill="#0D1B2A"/>
+    <rect y="37.5" width="880" height="1" fill="#1B3A4B"/>
+    <circle cx="24" cy="19" r="6" fill="#FF6B6B" opacity=".85"/>
+    <circle cx="46" cy="19" r="6" fill="#FFB86B" opacity=".85"/>
+    <circle cx="68" cy="19" r="6" fill="#7FD8D2" opacity=".85"/>
+    <text x="440" y="24" text-anchor="middle" class="dim" font-size="13" opacity=".7">tkwind@github: ~</text>
+  </g>
+  <rect x=".5" y=".5" width="879" height="281" rx="14" fill="none" stroke="#1B3A4B"/>
+
+  <!-- session -->
+  <text class="t1" x="28" y="72"><tspan class="prompt">$ </tspan><tspan class="cmd">whoami</tspan></text>
+  <text class="o1" x="28" y="98"><tspan class="ok">tkwind</tspan><tspan class="dim"> — I build tools that show their work</tspan></text>
+
+  <text class="t2" x="28" y="132"><tspan class="prompt">$ </tspan><tspan class="cmd">pip install repoclean-cli &amp;&amp; repoclean scan</tspan></text>
+  <text class="o2" x="28" y="158"><tspan class="ok">✓</tspan><tspan class="dim"> hygiene score </tspan><tspan class="ok">94/100</tspan><tspan class="dim"> · 0 secrets leaked · pre-commit hook armed</tspan></text>
+  <text class="o3" x="28" y="184"><tspan class="ok">✓</tspan><tspan class="dim"> every finding shipped with its evidence attached</tspan></text>
+
+  <text class="t3" x="28" y="218"><tspan class="prompt">$ </tspan><tspan class="cmd">tkwind --principles</tspan></text>
+  <text class="o4" x="28" y="244"><tspan class="dim">[1] evidence first   [2] label the guesses   [3] ship small, ship often</tspan></text>
+
+  <g class="caretline">
+    <text x="28" y="274" class="prompt">$ </text>
+    <rect class="caret" x="46" y="262" width="9" height="16" fill="#7FD8D2"/>
+  </g>
+</svg>

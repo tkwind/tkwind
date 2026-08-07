@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 232" width="880" height="232" role="img" aria-label="GitHub activity dashboard for tkwind">
+<style>
+    text { font-family: ui-monospace, SFMono-Regular, 'SF Mono', Menlo, 'DejaVu Sans Mono', monospace; }
+    .in  { animation: rise .7s cubic-bezier(.16,.84,.44,1) backwards; }
+    @keyframes rise { from { opacity: 0; transform: translateY(6px); } }
+    .spark { stroke-dasharray: 1200; stroke-dashoffset: 1200;
+              animation: draw 1.8s .3s ease-out forwards; }
+    @keyframes draw { to { stroke-dashoffset: 0; } }
+    .fade { animation: fadein 1.2s .8s ease-out backwards; }
+    @keyframes fadein { from { opacity: 0; } }
+    .bar { transform-origin: 0 0; animation: grow 1s .4s cubic-bezier(.16,.84,.44,1) backwards; }
+    @keyframes grow { from { transform: scaleX(0); } }
+    @media (prefers-reduced-motion: reduce) {
+      .in,.spark,.fade,.bar { animation: none; }
+      .spark { stroke-dasharray: none; stroke-dashoffset: 0; }
+    }
+</style>
+<rect x=".5" y=".5" width="879" height="231" rx="14" fill="none" stroke="#CBD9DD"/>
+<text class="in" x="28" y="38" font-size="13" letter-spacing="3" fill="#8494A3">THE NUMBERS — PAST YEAR</text>
+<g class="in" style="animation-delay:0.15s">
+<g transform="translate(28,60) scale(1.0)"><path fill="#14807C" d="M11.93 8.5a4.002 4.002 0 0 1-7.86 0H.75a.75.75 0 0 1 0-1.5h3.32a4.002 4.002 0 0 1 7.86 0h3.32a.75.75 0 0 1 0 1.5h-3.32zM8 10.25a2.25 2.25 0 1 0 0-4.5 2.25 2.25 0 0 0 0 4.5z"/></g>
+<text x="54" y="74" font-size="24" font-weight="700" fill="#0D1B2A">166</text>
+<text x="28" y="96" font-size="10.5" letter-spacing="1.5" fill="#4A5B6B">COMMITS</text>
+</g>
+<g class="in" style="animation-delay:0.25s">
+<g transform="translate(158,60) scale(1.0)"><path fill="#14807C" d="M9.504.43a.75.75 0 0 1 .494.889l-1.09 4.436h4.342a.75.75 0 0 1 .548 1.262l-7.5 8.25a.75.75 0 0 1-1.292-.657l1.09-4.435H1.754a.75.75 0 0 1-.548-1.263l7.5-8.25a.75.75 0 0 1 .798-.232z"/></g>
+<text x="184" y="74" font-size="24" font-weight="700" fill="#0D1B2A">174</text>
+<text x="158" y="96" font-size="10.5" letter-spacing="1.5" fill="#4A5B6B">CONTRIBUTIONS</text>
+</g>
+<g class="in" style="animation-delay:0.35s">
+<g transform="translate(28,132) scale(1.0)"><path fill="#14807C" d="M5 5.372v.878c0 .414.336.75.75.75h4.5a.75.75 0 0 0 .75-.75v-.878a2.25 2.25 0 1 1 1.5 0v.878a2.25 2.25 0 0 1-2.25 2.25h-1.5v2.128a2.251 2.251 0 1 1-1.5 0V8.5h-1.5A2.25 2.25 0 0 1 3.5 6.25v-.878a2.25 2.25 0 1 1 1.5 0zM5 3.25a.75.75 0 1 0-1.5 0 .75.75 0 0 0 1.5 0zm6.75.75a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5zm-3 8.75a.75.75 0 1 0-1.5 0 .75.75 0 0 0 1.5 0z"/></g>
+<text x="54" y="146" font-size="24" font-weight="700" fill="#0D1B2A">7</text>
+<text x="28" y="168" font-size="10.5" letter-spacing="1.5" fill="#4A5B6B">PUBLIC REPOS</text>
+</g>
+<g class="in" style="animation-delay:0.45s">
+<g transform="translate(158,132) scale(1.0)"><path fill="#C86A1E" d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.75.75 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25z"/></g>
+<text x="184" y="146" font-size="24" font-weight="700" fill="#0D1B2A">2</text>
+<text x="158" y="168" font-size="10.5" letter-spacing="1.5" fill="#4A5B6B">STARS EARNED</text>
+</g>
+<rect x="300" y="28" width="1" height="176" fill="#CBD9DD"/>
+<g class="in" style="animation-delay:.35s">
+<g transform="translate(330,62) scale(1.6)"><path fill="#C86A1E" d="M9.533.753V.752c.217 2.385 1.463 3.626 2.653 4.81C13.37 6.74 14.498 7.863 14.498 10c0 3.5-3 6-6.5 6S1.5 13.512 1.5 10c0-1.298.536-2.56 1.425-3.286.376-.308.862 0 1.035.454.283.744.72 1.394 1.34 1.832.443-1.615.29-3.303-.116-4.936-.152-.612.354-1.223.98-1.128 1.114.169 2.164.769 2.869 1.817z"/></g>
+<text x="362" y="86" font-size="40" font-weight="700" fill="#0D1B2A">1</text>
+<text x="330" y="112" font-size="10.5" letter-spacing="1.5" fill="#4A5B6B">DAY STREAK</text>
+<text x="330" y="150" font-size="20" font-weight="700" fill="#14807C">2</text>
+<text x="330" y="172" font-size="10.5" letter-spacing="1.5" fill="#4A5B6B">LONGEST STREAK</text>
+<text x="330" y="200" font-size="11" fill="#8494A3">self-rendered · refreshes 4×/day</text>
+</g>
+<rect x="490" y="28" width="1" height="176" fill="#CBD9DD"/>
+<text class="in" x="520" y="38" font-size="10.5" letter-spacing="1.5" fill="#4A5B6B">CONTRIBUTIONS / WEEK</text>
+<polygon class="fade" points="520,140 520.0,140.0 526.4,140.0 532.8,140.0 539.2,140.0 545.5,140.0 551.9,140.0 558.3,140.0 564.7,140.0 571.1,140.0 577.5,140.0 583.8,140.0 590.2,140.0 596.6,140.0 603.0,140.0 609.4,140.0 615.8,140.0 622.2,140.0 628.5,140.0 634.9,140.0 641.3,140.0 647.7,135.2 654.1,140.0 660.5,140.0 666.8,44.0 673.2,127.2 679.6,119.2 686.0,140.0 692.4,140.0 698.8,140.0 705.2,108.0 711.5,140.0 717.9,140.0 724.3,140.0 730.7,140.0 737.1,140.0 743.5,122.4 749.8,58.4 756.2,138.4 762.6,140.0 769.0,140.0 775.4,140.0 781.8,138.4 788.2,136.8 794.5,140.0 800.9,140.0 807.3,140.0 813.7,140.0 820.1,140.0 826.5,140.0 832.8,140.0 839.2,140.0 845.6,140.0 852.0,133.6 852,140" fill="#D8E7E5" opacity=".8"/>
+<polyline class="spark" points="520.0,140.0 526.4,140.0 532.8,140.0 539.2,140.0 545.5,140.0 551.9,140.0 558.3,140.0 564.7,140.0 571.1,140.0 577.5,140.0 583.8,140.0 590.2,140.0 596.6,140.0 603.0,140.0 609.4,140.0 615.8,140.0 622.2,140.0 628.5,140.0 634.9,140.0 641.3,140.0 647.7,135.2 654.1,140.0 660.5,140.0 666.8,44.0 673.2,127.2 679.6,119.2 686.0,140.0 692.4,140.0 698.8,140.0 705.2,108.0 711.5,140.0 717.9,140.0 724.3,140.0 730.7,140.0 737.1,140.0 743.5,122.4 749.8,58.4 756.2,138.4 762.6,140.0 769.0,140.0 775.4,140.0 781.8,138.4 788.2,136.8 794.5,140.0 800.9,140.0 807.3,140.0 813.7,140.0 820.1,140.0 826.5,140.0 832.8,140.0 839.2,140.0 845.6,140.0 852.0,133.6" fill="none" stroke="#14807C" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<text class="in" x="520" y="166" font-size="10.5" letter-spacing="1.5" fill="#4A5B6B">LANGUAGES</text>
+<g transform="translate(520,176)"><rect class="bar" style="animation-delay:0.40s" width="137.9" height="9" rx="4.5" fill="#f1e05a"/></g>
+<g transform="translate(660.8900720630384,176)"><rect class="bar" style="animation-delay:0.52s" width="111.7" height="9" rx="4.5" fill="#3572A5"/></g>
+<g transform="translate(775.613029715714,176)"><rect class="bar" style="animation-delay:0.64s" width="54.0" height="9" rx="4.5" fill="#3178c6"/></g>
+<g transform="translate(832.6615057657914,176)"><rect class="bar" style="animation-delay:0.76s" width="18.5" height="9" rx="4.5" fill="#663399"/></g>
+<g transform="translate(854.2002200055375,176)"><rect class="bar" style="animation-delay:0.88s" width="-2.2" height="9" rx="4.5" fill="#e34c26"/></g>
+<circle class="in" cx="524" cy="206" r="4" fill="#f1e05a"/>
+<text class="in" x="533" y="210" font-size="10.5" fill="#4A5B6B">JavaScript 42%</text>
+<circle class="in" cx="645.4" cy="206" r="4" fill="#3572A5"/>
+<text class="in" x="654.4" y="210" font-size="10.5" fill="#4A5B6B">Python 34%</text>
+<circle class="in" cx="740.4" cy="206" r="4" fill="#3178c6"/>
+<text class="in" x="749.4" y="210" font-size="10.5" fill="#4A5B6B">TypeScript 16%</text>
+<circle class="in" cx="861.8" cy="206" r="4" fill="#663399"/>
+<text class="in" x="870.8" y="210" font-size="10.5" fill="#4A5B6B">CSS 6%</text>
+</svg>

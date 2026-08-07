@@ -2,8 +2,10 @@
   ─────────────────────────────────────────────────────────────
   tkwind — profile README
   Colors: ink #0D1B2A · haze #1B3A4B · gust #7FD8D2 · ember #FFB86B
-  Header + terminal art live in assets/ — hand-written animated SVGs.
-  Edit the header subtitle in BOTH header svg files.
+  Every image is served from this repo — no third-party services.
+  Hand-written animated SVGs live in assets/ (tagline phrases are
+  inside the header SVGs — edit BOTH). Stat + repo cards are
+  rendered by scripts/render_cards.py via workflows/cards.yml.
   ─────────────────────────────────────────────────────────────
 -->
 
@@ -13,24 +15,12 @@
   <img alt="tkwind — developer tools that show their work" src="./assets/header-dark.svg" width="100%">
 </picture>
 
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)"  srcset="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=500&size=20&duration=2800&pause=900&center=true&vCenter=true&width=680&height=44&color=7FD8D2&background=00000000&lines=I+build+tools+that+show+their+work;evidence+first+%E2%80%94+guesses+labeled+as+guesses;CLI+design+%C2%B7+API+debugging+%C2%B7+auditable+AI+agents;Python+%C2%B7+TypeScript+%C2%B7+FastAPI+%C2%B7+React">
-    <source media="(prefers-color-scheme: light)" srcset="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=500&size=20&duration=2800&pause=900&center=true&vCenter=true&width=680&height=44&color=14807C&background=00000000&lines=I+build+tools+that+show+their+work;evidence+first+%E2%80%94+guesses+labeled+as+guesses;CLI+design+%C2%B7+API+debugging+%C2%B7+auditable+AI+agents;Python+%C2%B7+TypeScript+%C2%B7+FastAPI+%C2%B7+React">
-    <img alt="I build tools that show their work" src="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=500&size=20&duration=2800&pause=900&center=true&vCenter=true&width=680&height=44&color=7FD8D2&background=00000000&lines=I+build+tools+that+show+their+work;evidence+first+%E2%80%94+guesses+labeled+as+guesses;CLI+design+%C2%B7+API+debugging+%C2%B7+auditable+AI+agents;Python+%C2%B7+TypeScript+%C2%B7+FastAPI+%C2%B7+React">
-  </picture>
-</p>
-
 <div align="center">
 
-<a href="https://pypi.org/project/repoclean-cli/"><img alt="PyPI" src="https://img.shields.io/badge/pypi-repoclean--cli-0D1B2A?style=for-the-badge&logo=pypi&logoColor=FFB86B&labelColor=0D1B2A"></a>&nbsp;
-<a href="https://tkwind.github.io/PostSense/"><img alt="PostSense demo" src="https://img.shields.io/badge/demo-postsense-0D1B2A?style=for-the-badge&logo=googlechrome&logoColor=7FD8D2&labelColor=0D1B2A"></a>&nbsp;
-<a href="https://github.com/tkwind?tab=repositories"><img alt="Repositories" src="https://img.shields.io/badge/repos-0D1B2A?style=for-the-badge&logo=github&logoColor=7FD8D2&labelColor=0D1B2A"></a>&nbsp;
-<a href="mailto:trishirkumarvind@gmail.com"><img alt="Email" src="https://img.shields.io/badge/email-0D1B2A?style=for-the-badge&logo=maildotru&logoColor=7FD8D2&labelColor=0D1B2A"></a>
-
-<br><br>
-
-<img alt="Profile views" src="https://komarev.com/ghpvc/?username=tkwind&style=flat-square&color=7FD8D2&label=PROFILE+VIEWS">
+<a href="https://pypi.org/project/repoclean-cli/"><img alt="PyPI — repoclean-cli" src="./assets/badge-pypi.svg"></a>&nbsp;
+<a href="https://tkwind.github.io/PostSense/"><img alt="PostSense live demo" src="./assets/badge-demo.svg"></a>&nbsp;
+<a href="https://github.com/tkwind?tab=repositories"><img alt="All repositories" src="./assets/badge-repos.svg"></a>&nbsp;
+<a href="mailto:trishirkumarvind@gmail.com"><img alt="Email" src="./assets/badge-email.svg"></a>
 
 </div>
 
@@ -57,18 +47,11 @@ ask_me      = ["CLI design", "auditable LLM agents", "why your API returns 405"]
 
 <div align="center">
 
-<a href="https://github.com/tkwind?tab=repositories">
-  <picture>
-    <source media="(prefers-color-scheme: dark)"  srcset="https://skillicons.dev/icons?i=py,ts,js,cpp,react,vite,tailwind,nodejs,express,fastapi,mongodb,firebase,docker,gcp,githubactions,vercel&perline=8&theme=dark">
-    <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=py,ts,js,cpp,react,vite,tailwind,nodejs,express,fastapi,mongodb,firebase,docker,gcp,githubactions,vercel&perline=8&theme=light">
-    <img alt="Python, TypeScript, JavaScript, C++, React, Vite, Tailwind, Node.js, Express, FastAPI, MongoDB, Firebase, Docker, Google Cloud, GitHub Actions, Vercel" src="https://skillicons.dev/icons?i=py,ts,js,cpp,react,vite,tailwind,nodejs,express,fastapi,mongodb,firebase,docker,gcp,githubactions,vercel&perline=8&theme=dark">
-  </picture>
-</a>
-
-<br><br>
-
-<img alt="Ollama" src="https://img.shields.io/badge/Ollama_+_local_Mistral-0D1B2A?style=flat-square&logo=ollama&logoColor=FFB86B">
-<img alt="NVIDIA NIM" src="https://img.shields.io/badge/NVIDIA_NIM-0D1B2A?style=flat-square&logo=nvidia&logoColor=7FD8D2">
+<picture>
+  <source media="(prefers-color-scheme: dark)"  srcset="./assets/stack-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/stack-light.svg">
+  <img alt="Python, TypeScript, JavaScript, C++, React, Vite, Tailwind, Node.js, Express, FastAPI, MongoDB, Firebase, Docker, Cloud Run, GitHub Actions, Ollama, NVIDIA NIM, Vercel" src="./assets/stack-dark.svg" width="94%">
+</picture>
 
 </div>
 
@@ -94,16 +77,32 @@ ask_me      = ["CLI design", "auditable LLM agents", "why your API returns 405"]
 <div align="center">
 
 <a href="https://github.com/tkwind/repoclean">
-  <img alt="repoclean — repo hygiene CLI with secrets detection" width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=tkwind&repo=repoclean&hide_border=true&bg_color=00000000&title_color=7FD8D2&text_color=9FB3C8&icon_color=FFB86B">
+  <picture>
+    <source media="(prefers-color-scheme: dark)"  srcset="./generated/repo-repoclean-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="./generated/repo-repoclean-light.svg">
+    <img alt="repoclean — repo hygiene CLI with secrets detection" width="49%" src="./generated/repo-repoclean-dark.svg">
+  </picture>
 </a>
 <a href="https://github.com/tkwind/PostSense">
-  <img alt="PostSense — intelligence-backed API debugging" width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=tkwind&repo=PostSense&hide_border=true&bg_color=00000000&title_color=7FD8D2&text_color=9FB3C8&icon_color=FFB86B">
+  <picture>
+    <source media="(prefers-color-scheme: dark)"  srcset="./generated/repo-PostSense-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="./generated/repo-PostSense-light.svg">
+    <img alt="PostSense — intelligence-backed API debugging" width="49%" src="./generated/repo-PostSense-dark.svg">
+  </picture>
 </a>
 <a href="https://github.com/tkwind/Apply_AI">
-  <img alt="Apply_AI — AI job application tracker" width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=tkwind&repo=Apply_AI&hide_border=true&bg_color=00000000&title_color=7FD8D2&text_color=9FB3C8&icon_color=FFB86B">
+  <picture>
+    <source media="(prefers-color-scheme: dark)"  srcset="./generated/repo-Apply_AI-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="./generated/repo-Apply_AI-light.svg">
+    <img alt="Apply_AI — AI job application tracker" width="49%" src="./generated/repo-Apply_AI-dark.svg">
+  </picture>
 </a>
 <a href="https://github.com/tkwind/ai-outreach-assistant">
-  <img alt="ai-outreach-assistant — agentic lead scoring" width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=tkwind&repo=ai-outreach-assistant&hide_border=true&bg_color=00000000&title_color=7FD8D2&text_color=9FB3C8&icon_color=FFB86B">
+  <picture>
+    <source media="(prefers-color-scheme: dark)"  srcset="./generated/repo-ai-outreach-assistant-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="./generated/repo-ai-outreach-assistant-light.svg">
+    <img alt="ai-outreach-assistant — agentic lead scoring" width="49%" src="./generated/repo-ai-outreach-assistant-dark.svg">
+  </picture>
 </a>
 
 </div>
@@ -164,29 +163,12 @@ flowchart LR
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)"  srcset="https://github-readme-stats.vercel.app/api?username=tkwind&show_icons=true&hide_border=true&include_all_commits=true&rank_icon=github&bg_color=00000000&title_color=7FD8D2&text_color=9FB3C8&icon_color=FFB86B&ring_color=7FD8D2">
-  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=tkwind&show_icons=true&hide_border=true&include_all_commits=true&rank_icon=github&bg_color=00000000&title_color=14807C&text_color=4A5B6B&icon_color=C86A1E&ring_color=14807C">
-  <img alt="tkwind's GitHub stats" src="https://github-readme-stats.vercel.app/api?username=tkwind&show_icons=true&hide_border=true" width="49%">
-</picture>
-<picture>
-  <source media="(prefers-color-scheme: dark)"  srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=tkwind&layout=compact&langs_count=8&hide_border=true&bg_color=00000000&title_color=7FD8D2&text_color=9FB3C8">
-  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=tkwind&layout=compact&langs_count=8&hide_border=true&bg_color=00000000&title_color=14807C&text_color=4A5B6B">
-  <img alt="Most used languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=tkwind&layout=compact&hide_border=true" width="41%">
-</picture>
-
-<br>
-
-<picture>
-  <source media="(prefers-color-scheme: dark)"  srcset="https://streak-stats.demolab.com?user=tkwind&hide_border=true&background=00000000&stroke=1B3A4B&ring=7FD8D2&fire=FFB86B&currStreakLabel=7FD8D2&sideLabels=9FB3C8&dates=6B7C8F&currStreakNum=EDF2F4&sideNums=EDF2F4">
-  <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com?user=tkwind&hide_border=true&background=00000000&stroke=CBD9DD&ring=14807C&fire=C86A1E&currStreakLabel=14807C&sideLabels=4A5B6B&dates=8494A3&currStreakNum=0D1B2A&sideNums=0D1B2A">
-  <img alt="Contribution streak" src="https://streak-stats.demolab.com?user=tkwind&hide_border=true" width="60%">
+  <source media="(prefers-color-scheme: dark)"  srcset="./generated/dashboard-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./generated/dashboard-light.svg">
+  <img alt="Commits, contributions, repos, stars, streaks, weekly activity sparkline, and language breakdown — rendered in-repo" src="./generated/dashboard-dark.svg" width="94%">
 </picture>
 
 <br><br>
-
-<img alt="Contribution activity graph" src="https://github-readme-activity-graph.vercel.app/graph?username=tkwind&bg_color=00000000&color=4FB3AC&line=FFB86B&point=4FB3AC&area=true&area_color=1B3A4B&hide_border=true&custom_title=Commits%20over%20time">
-
-<br>
 
 <!-- Generated by .github/workflows/snake.yml → pushed to the `output` branch -->
 <picture>
@@ -210,12 +192,14 @@ flowchart LR
 <summary><b>How this README works</b></summary>
 <br>
 
-The header and the terminal are hand-written animated SVGs in [`assets/`](./assets) — CSS keyframes inside the files, no external banner service. GitHub renders them through its image proxy, so the animations run but scripts never do.
+Everything on this page is served from this repo — no stat-card services, no rate limits, nothing that breaks at busy hours.
 
-Two workflows keep the rest current:
+- The header (aurora + typing tagline), terminal, stack grid, badges, and divider are **hand-written animated SVGs** in [`assets/`](./assets) — CSS keyframes inside the files. GitHub renders them through its image proxy, so the animations run but scripts never do.
+- The stat dashboard and repo cards are rendered by [`scripts/render_cards.py`](./scripts/render_cards.py) from live GitHub API data.
 
 | Workflow | What it does | Schedule |
 | :-- | :-- | :-- |
+| [`cards.yml`](./.github/workflows/cards.yml) | Renders the stat dashboard + repo cards | every 6h |
 | [`snake.yml`](./.github/workflows/snake.yml) | Renders the contribution snake to the `output` branch | every 12h |
 | [`3d-contrib.yml`](./.github/workflows/3d-contrib.yml) | Renders the 3D contribution calendar | daily |
 

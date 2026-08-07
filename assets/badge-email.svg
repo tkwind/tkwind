@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 88 34" width="88" height="34" role="img" aria-label="email">
+  <style>
+    .dot { animation: glow 2.6s ease-in-out infinite; }
+    @keyframes glow { 0%, 100% { opacity: 1; } 50% { opacity: .35; } }
+    @media (prefers-reduced-motion: reduce) { .dot { animation: none; } }
+  </style>
+  <rect x=".5" y=".5" width="87" height="33" rx="8" fill="#0D1B2A" stroke="#1B3A4B"/>
+  <circle class="dot" cx="20" cy="17" r="4" fill="#FFB86B"/>
+  <text x="34" y="21.5" font-family="ui-monospace, SFMono-Regular, Menlo, 'DejaVu Sans Mono', monospace" font-size="12.5" letter-spacing="1" fill="#EDF2F4" textLength="38" lengthAdjust="spacingAndGlyphs">email</text>
+</svg>

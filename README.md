@@ -1,13 +1,13 @@
 <!--
   ─────────────────────────────────────────────────────────────
-  tkwind — profile README
+  painkratz — profile README
   Colors: ink #0D1B2A · haze #1B3A4B · gust #7FD8D2 · ember #FFB86B
   Every image is served from this repo — no third-party services.
   Hand-written animated SVGs live in assets/ (tagline phrases are
   inside the header SVGs — edit BOTH). Stat + repo cards are
   rendered by scripts/render_cards.py via workflows/cards.yml.
 
-  TODO(tkwind) — real facts to drop in when confirmed (never invent):
+  TODO(painkratz) — real facts to drop in when confirmed (never invent):
     · PyPI monthly downloads for repoclean-cli (flagship line below,
       and see the TODO in scripts/render_cards.py)
     · count of token formats repoclean detects (flagship line)
@@ -19,13 +19,13 @@
 <picture>
   <source media="(prefers-color-scheme: dark)"  srcset="./assets/header-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="./assets/header-light.svg">
-  <img alt="tkwind — developer tools that show their work" src="./assets/header-dark.svg" width="100%">
+  <img alt="painkratz — developer tools that show their work" src="./assets/header-dark.svg" width="100%">
 </picture>
 
 <div align="center">
 
 <a href="https://pypi.org/project/repoclean-cli/"><img alt="PyPI — repoclean-cli" src="./assets/badge-pypi.svg"></a>&nbsp;
-<a href="https://tkwind.github.io/PostSense/"><img alt="PostSense live demo" src="./assets/badge-demo.svg"></a>&nbsp;
+<a href="https://painkratz.github.io/PostSense/"><img alt="PostSense live demo" src="./assets/badge-demo.svg"></a>&nbsp;
 <a href="mailto:trishirkumarvind@gmail.com"><img alt="Email" src="./assets/badge-email.svg"></a>
 
 </div>
@@ -35,11 +35,11 @@
 Most tools tell you *what* happened. Mine tell you *why* — and admit it when they're guessing.
 
 <div align="center">
-<img src="./assets/terminal.svg" width="92%" alt="Animated terminal: whoami — tkwind. pip install repoclean-cli. Principles: evidence first, label the guesses, ship small.">
+<img src="./assets/terminal.svg" width="92%" alt="Animated terminal: whoami — painkratz. pip install repoclean-cli. Principles: evidence first, label the guesses, ship small.">
 </div>
 
 ```toml
-[tkwind]
+[painkratz]
 now      = "building developer tools that explain themselves"
 ask_me   = ["CLI design", "auditable LLM agents", "why your API returns 405"]
 weekends = "tuning a 3D printer — and the slicer fork it demanded"
@@ -51,28 +51,28 @@ weekends = "tuning a 3D printer — and the slicer fork it demanded"
 
 <div align="center">
 
-<a href="https://github.com/tkwind/repoclean">
+<a href="https://github.com/painkratz/repoclean">
   <picture>
     <source media="(prefers-color-scheme: dark)"  srcset="./generated/repo-repoclean-dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="./generated/repo-repoclean-light.svg">
     <img alt="repoclean — repo hygiene CLI with secrets detection" width="49%" src="./generated/repo-repoclean-dark.svg">
   </picture>
 </a>
-<a href="https://github.com/tkwind/PostSense">
+<a href="https://github.com/painkratz/PostSense">
   <picture>
     <source media="(prefers-color-scheme: dark)"  srcset="./generated/repo-PostSense-dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="./generated/repo-PostSense-light.svg">
     <img alt="PostSense — intelligence-backed API debugging" width="49%" src="./generated/repo-PostSense-dark.svg">
   </picture>
 </a>
-<a href="https://github.com/tkwind/Apply_AI">
+<a href="https://github.com/painkratz/Apply_AI">
   <picture>
     <source media="(prefers-color-scheme: dark)"  srcset="./generated/repo-Apply_AI-dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="./generated/repo-Apply_AI-light.svg">
     <img alt="Apply_AI — AI job application tracker" width="49%" src="./generated/repo-Apply_AI-dark.svg">
   </picture>
 </a>
-<a href="https://github.com/tkwind/ai-outreach-assistant">
+<a href="https://github.com/painkratz/ai-outreach-assistant">
   <picture>
     <source media="(prefers-color-scheme: dark)"  srcset="./generated/repo-ai-outreach-assistant-dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="./generated/repo-ai-outreach-assistant-light.svg">
@@ -82,24 +82,24 @@ weekends = "tuning a 3D printer — and the slicer fork it demanded"
 
 </div>
 
-**⚑ Flagship — [repoclean](https://github.com/tkwind/repoclean)** · `pip install repoclean-cli` — a pre-commit gatekeeper that pairs regex token detection with entropy scoring, blocks the leak in strict mode, and emits JSON for CI.
-<!-- TODO(tkwind): append real numbers here when confirmed — "N token formats · M downloads/month" -->
+**⚑ Flagship — [repoclean](https://github.com/painkratz/repoclean)** · `pip install repoclean-cli` — a pre-commit gatekeeper that pairs regex token detection with entropy scoring, blocks the leak in strict mode, and emits JSON for CI.
+<!-- TODO(painkratz): append real numbers here when confirmed — "N token formats · M downloads/month" -->
 
-- **[PostSense](https://tkwind.github.io/PostSense/)** — diffs a failing request against your last working one, and simulates the browser CORS constraints your desktop client hides; every diagnosis carries an evidence grade.
+- **[PostSense](https://painkratz.github.io/PostSense/)** — diffs a failing request against your last working one, and simulates the browser CORS constraints your desktop client hides; every diagnosis carries an evidence grade.
 - **[Apply\_AI](https://apply-ai-iota.vercel.app/)** — React Query + JWT auth over an Express/Mongo backend, with NVIDIA NIM parsing job descriptions into resume suggestions.
-- **[ai-outreach-assistant](https://github.com/tkwind/ai-outreach-assistant)** — scoring, messaging, and orchestration kept deliberately separate so every decision is auditable; runs on local Mistral, so lead data never leaves the machine.
+- **[ai-outreach-assistant](https://github.com/painkratz/ai-outreach-assistant)** — scoring, messaging, and orchestration kept deliberately separate so every decision is auditable; runs on local Mistral, so lead data never leaves the machine.
 
 <details>
 <summary><b>How each one works under the hood →</b></summary>
 <br>
 
-**[repoclean](https://github.com/tkwind/repoclean)** &nbsp;·&nbsp; A git hygiene scanner that installs itself as a pre-commit gatekeeper. It catches GitHub, Slack, Stripe, Telegram, AWS, and OpenAI tokens plus high-entropy assignments, and strict mode blocks the commit outright. JSON output plugs into CI. The premise: most leaks are speed, not carelessness — so hygiene has to be automatic.
+**[repoclean](https://github.com/painkratz/repoclean)** &nbsp;·&nbsp; A git hygiene scanner that installs itself as a pre-commit gatekeeper. It catches GitHub, Slack, Stripe, Telegram, AWS, and OpenAI tokens plus high-entropy assignments, and strict mode blocks the commit outright. JSON output plugs into CI. The premise: most leaks are speed, not carelessness — so hygiene has to be automatic.
 
-**[PostSense](https://tkwind.github.io/PostSense/)** &nbsp;·&nbsp; An API client that debugs instead of reporting. It compares a failing request to your last successful one for the same endpoint and returns a diff, not a status code. It also auto-probes unknown endpoints in a rate-limit-safe sequence and simulates browser CORS constraints. Every diagnosis is graded High / Medium / Low, so you always know inference from knowledge. Single folder, vanilla JS, no install.
+**[PostSense](https://painkratz.github.io/PostSense/)** &nbsp;·&nbsp; An API client that debugs instead of reporting. It compares a failing request to your last successful one for the same endpoint and returns a diff, not a status code. It also auto-probes unknown endpoints in a rate-limit-safe sequence and simulates browser CORS constraints. Every diagnosis is graded High / Medium / Low, so you always know inference from knowledge. Single folder, vanilla JS, no install.
 
 **[Apply\_AI](https://apply-ai-iota.vercel.app/)** &nbsp;·&nbsp; A job application tracker with a drag-and-drop board. NVIDIA NIM parses job descriptions into resume suggestions. React + TS + Vite on the front, Express + Mongo behind JWT auth, React Query holding the two together.
 
-**[ai-outreach-assistant](https://github.com/tkwind/ai-outreach-assistant)** &nbsp;·&nbsp; Agentic B2B lead scoring built as three deliberately separate pieces: a scoring agent, a messaging agent, and an orchestrator. Decisions stay apart from execution, thresholds stay configurable, and every call leaves an explainable trace. It runs entirely on local Mistral via Ollama — no lead data leaves the machine.
+**[ai-outreach-assistant](https://github.com/painkratz/ai-outreach-assistant)** &nbsp;·&nbsp; Agentic B2B lead scoring built as three deliberately separate pieces: a scoring agent, a messaging agent, and an orchestrator. Decisions stay apart from execution, thresholds stay configurable, and every call leaves an explainable trace. It runs entirely on local Mistral via Ollama — no lead data leaves the machine.
 
 </details>
 
@@ -109,9 +109,9 @@ weekends = "tuning a 3D printer — and the slicer fork it demanded"
 
 Not everything in an account is a product:
 
-- **[jatayu-fastapi-crud](https://github.com/tkwind/jatayu-fastapi-crud)** — FastAPI + Firestore task API, Dockerized for Cloud Run, with Firestore access isolated in a service layer and a folder structure deliberately kept readable for people learning the stack.
-- **[pharmazephyr-backend](https://github.com/tkwind/pharmazephyr-backend)** — Node service, in progress.
-- **[OrcaSlicer-bambulab](https://github.com/tkwind/OrcaSlicer-bambulab)** — the slicer fork my printer demanded.
+- **[jatayu-fastapi-crud](https://github.com/painkratz/jatayu-fastapi-crud)** — FastAPI + Firestore task API, Dockerized for Cloud Run, with Firestore access isolated in a service layer and a folder structure deliberately kept readable for people learning the stack.
+- **[pharmazephyr-backend](https://github.com/painkratz/pharmazephyr-backend)** — Node service, in progress.
+- **[OrcaSlicer-bambulab](https://github.com/painkratz/OrcaSlicer-bambulab)** — the slicer fork my printer demanded.
 
 </details>
 
@@ -182,9 +182,9 @@ flowchart LR
 
 <!-- Generated by .github/workflows/snake.yml → pushed to the `output` branch -->
 <picture>
-  <source media="(prefers-color-scheme: dark)"  srcset="https://raw.githubusercontent.com/tkwind/tkwind/output/snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/tkwind/tkwind/output/snake-light.svg">
-  <img alt="Snake eating my contribution graph" src="https://raw.githubusercontent.com/tkwind/tkwind/output/snake-dark.svg">
+  <source media="(prefers-color-scheme: dark)"  srcset="https://raw.githubusercontent.com/painkratz/painkratz/output/snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/painkratz/painkratz/output/snake-light.svg">
+  <img alt="Snake eating my contribution graph" src="https://raw.githubusercontent.com/painkratz/painkratz/output/snake-dark.svg">
 </picture>
 
 </div>
@@ -221,7 +221,7 @@ Theme switching uses `<picture>` + `prefers-color-scheme`, so every graphic ship
 
 <div align="center">
 
-<sub><b>tkwind</b> · <a href="https://pypi.org/project/repoclean-cli/">repoclean-cli</a> · <a href="https://tkwind.github.io/PostSense/">PostSense</a> · <a href="https://github.com/tkwind?tab=repositories">all repos</a></sub>
+<sub><b>painkratz</b> · <a href="https://pypi.org/project/repoclean-cli/">repoclean-cli</a> · <a href="https://painkratz.github.io/PostSense/">PostSense</a> · <a href="https://github.com/painkratz?tab=repositories">all repos</a></sub>
 <br>
 <sub>If one of these saved you an hour, a star is a nice way to say so.</sub>
 
